@@ -24,6 +24,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
         blockWithItem(ModBlocks.TOPAZ_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_TOPAZ_ORE);
+        blockWithItem(ModBlocks.AMETHYST_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_AMETHYST_ORE);
+        blockWithItem(ModBlocks.QUARTZ_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_QUARTZ_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

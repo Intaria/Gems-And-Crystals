@@ -27,6 +27,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
         add(ModBlocks.TOPAZ_ORE.get(), (block) -> createOreDrop(ModBlocks.TOPAZ_ORE.get(), ModItems.TOPAZ.get()));
         add(ModBlocks.DEEPSLATE_TOPAZ_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_TOPAZ_ORE.get(), ModItems.TOPAZ.get()));
+        add(ModBlocks.AMETHYST_ORE.get(), (block) -> createOreDrop(ModBlocks.AMETHYST_ORE.get(), Items.AMETHYST_SHARD.asItem()));
+        add(ModBlocks.DEEPSLATE_AMETHYST_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_AMETHYST_ORE.get(), Items.AMETHYST_SHARD.asItem()));
+        add(ModBlocks.QUARTZ_ORE.get(), (block) -> createOreDrop(ModBlocks.QUARTZ_ORE.get(), Items.QUARTZ.asItem()));
+        add(ModBlocks.DEEPSLATE_QUARTZ_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_QUARTZ_ORE.get(), Items.QUARTZ.asItem()));
     }
 
     @Override
